@@ -1,0 +1,41 @@
+.pop-up-container {
+    width: 400px;
+    height: 300px;
+    background: cornflowerblue;
+    padding: .25rem;
+}
+
+.top-bar {
+    position: relative;
+    padding: .25rem;
+}
+
+.text {
+    color: white;
+    font-family: arial;
+}
+.close-x {
+    background: crimson;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 .125rem;
+
+    color: white;
+    font-family: arial;
+}
+.inner-content {
+    background: beige;
+    height: 90%;
+    position: relative;
+}
+
+.ok {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 0 2rem;
+}
