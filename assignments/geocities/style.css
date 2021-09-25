@@ -1,0 +1,73 @@
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 1rem;
+    background-color: red;
+    opacity: 0.7;
+
+}
+
+.subtitle {
+    font-family: fantasy;
+    text-align: center;
+    background-color: seashell;
+    padding: 2rem;
+    opacity: 0.8;
+}
+
+body{
+    background-image: url(https://web.archive.org/web/20050328033021/http://www.geocities.com/mknemesis/spiral1.gif);
+    background-size: 1500px;
+    background-repeat: repeat;
+    height: 1rem;
+}
+
+div.spiral {
+    background-image: url(https://web.archive.org/web/20090829021607/http://geocities.com/nppets/spiral.gif);
+    width: 100%;
+    height: 100px;
+    background-size: 100px;
+    position: absolute;
+    transform: translateY(650px);
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.yellow-spiral {
+    position: absolute;
+    width: 600px;
+    height: 6000px;
+    z-index: 4;
+    opacity: 0.5;
+    transform: translateX(1000px);
+}
+
+.body-in-park {
+    height: 1000px;
+    width: 800px;
+    position: relative;
+    border-style: dashed;
+    border-width: 55px;
+    z-index: 3;
+}
+
+.body-in-mirror {
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    border-style: dashed;
+    border-width: 15px;
+    transform: translateX(100px);
+    transform: translateY(100px);
+    z-index: 3;
+}
+
+.body-in-bathroom {
+    height: 300px;
+    width: 200px;
+    position: fixed;
+    border-style: dashed;
+    border-width: 25px;
+    transform: translateY(100px);
+    z-index: 2;
+}
